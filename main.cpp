@@ -31,7 +31,7 @@ int main()
   else
   {
   //in all other cases...
-  cout<<"?! Pssh. What are you talking about?\n";
+  cout<< letter <<"?! Pssh. What are you talking about?\n";
   }
 
     
