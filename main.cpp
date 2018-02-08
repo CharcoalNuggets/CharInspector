@@ -21,14 +21,14 @@ int main()
   cout<< letterCapital <<" is an upper case letter!\n";
   }
 
-  if (letter >= 'a' && letter <= 'z')
+  else if (letter >= 'a' && letter <= 'z')
   { 
   letterLowercase = letter;
   //when user's entry is between a-z...
   cout<< letterLowercase << " is a lower case letter!\n";
   }
 
-  if ((letter <= 'A' && letter >= 'Z') || (letter <= 'a' && letter >= 'z'))
+  else
   {
   //in all other cases...
   cout<<"?! Pssh. What are you talking about?\n";
